@@ -1,0 +1,9 @@
+n=int(input("Enter the number of elements:"))
+fibanocciseries=[0,1]
+if n>2:
+    for i in range(2,n):
+        nxtele=fibanocciseries[i-2]+fibanocciseries[i-1]
+        fibanocciseries.append(nxtele)
+print("fibanocciseries =",fibanocciseries)
+
+
