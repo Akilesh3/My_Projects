@@ -1,0 +1,6 @@
+list=[12,-7,5,64,-14]
+output=[]
+for i in list:
+  if (i>0):
+    output.append(i)
+print("output",output)
