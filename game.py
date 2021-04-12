@@ -8,12 +8,12 @@ print('\n###################################')
 
 print('\nGuess a number between 1-10')
 
-print('\nYou have five attempts!!!')
+print('\nYou have 3 attempts!!!')
 
 count=random.randint(1,10)
 for i in range(count):
 
-    max_attempt = 5
+    max_attempt = 3
     attempt = 0
     condition = True
     while condition == True:
@@ -22,8 +22,8 @@ for i in range(count):
             attempt+=1
 
             if guess == count:
-                print('##########CONGRATS##########')
-                print('\nyeh you have found the number!!!!!')
+                print('\n##########CONGRATS##########')
+                print('\nYou have found the number!!!!!')
                 print('\n############################')
                 break
 
